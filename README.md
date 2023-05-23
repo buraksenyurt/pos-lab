@@ -1,2 +1,3 @@
-# pos-lab
-Bu projedeki amaç farklı POS uygulamaları için ortak bir istemci paket geliştirilip geliştirilemeyeceğini keşfetmektir.
+# POS-Lab
+
+POC tadındaki bu çalışmada amaç farklı POS uygulamaları için ortak bir istemci paket geliştirilip geliştirilemeyeceğini keşfetmektir. Günümüzde Android işletim sistemli yüklü POS cihazları oldukça popüler. Ödeme yöntemleri sunan pek çok şirketin bu POS cihazlarda çalışabilen uygulamaları bulunuyor. Bu uygulamalar ile fiziki iletişim haricinde Restfull tipte servis çağrıları ile de iletişim kurulabiliyor. Yani bir istemci uygulamadan POS cihazındaki bir uygulamaya ödeme isteğini HTTP Post çağrısı ile yollamak mümkün. Lakin kurumda birden fazla ve farklı uygulama ile çalışılıyorsa her biri için ayrı bir entegrasyon yapmak çok da doğru değil. Bunu yönetebilen kurum dostu bir paket hazırlanabilir mi? İşte bunun peşindeyim. Örnek .Net platformunda geliştirilmektedir.
