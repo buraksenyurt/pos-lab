@@ -21,7 +21,7 @@ public class RestChannel
             }
         }
 
-        return default;
+        return string.Empty;
     }
 
     public async Task<R> PostDataWithReuqestUri<R, P>(string requestUri, P payload, string? access_token = null)
