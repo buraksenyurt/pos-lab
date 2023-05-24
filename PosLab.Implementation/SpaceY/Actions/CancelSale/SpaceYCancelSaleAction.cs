@@ -5,7 +5,7 @@ using PosLab.Network;
 
 namespace PosLab.Implementation.SpaceY.Actions.CancelSale
 {
-    public class SpaceYCancelCellAction
+    public class SpaceYCancelSellAction
         : IAction
     {
         public string Name { get; private set; }
