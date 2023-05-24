@@ -4,11 +4,11 @@ using PosLab.Infrastructure.Enums;
 using PosLab.Network;
 
 namespace PosLab.Implementation.SpaceY.Actions.DirectSales;
-public class SpaceYNewSaleAction
+public class NewSaleAction
     : IAction
 {
-    public string Name { get; private set; } = "NewSaleAction";
-    public string Description { get; private set; } = "Yeni satış";
+    public string Name { get; private set; }
+    public string Description { get; private set; } 
     public CallType CallType { get; private set; }
     public string Endpoint { get; private set; } = string.Empty;
 

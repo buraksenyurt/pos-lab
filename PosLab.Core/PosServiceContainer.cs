@@ -13,13 +13,13 @@ namespace PosLab.Core
         {
             var rootAddress = "http://localhost:5001/api";
 
-            var newSaleAction = new SpaceYNewSaleAction()
+            var newSaleAction = new NewSaleAction()
                 .AddName("NewSale")
                 .AddDescription("Yeni ürün satışı")
                 .AddEndpoint($"{rootAddress}/sales")
                 .AddCallType(CallType.Post);
 
-            var cancelAction = new SpaceYCancelSellAction()
+            var cancelAction = new CancelSellAction()
                 .AddName("CancelSale")
                 .AddDescription("Satış iptali")
                 .AddEndpoint($"{rootAddress}/sales/cancel")
