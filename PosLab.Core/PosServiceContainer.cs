@@ -19,7 +19,7 @@ namespace PosLab.Core
                 .AddEndpoint($"{rootAddress}/sales")
                 .AddCallType(CallType.Post);
 
-            var cancelAction = new CancelSellAction()
+            var cancelAction = new CancelSaleAction()
                 .AddName("CancelSale")
                 .AddDescription("Satış iptali")
                 .AddEndpoint($"{rootAddress}/sales/cancel")
