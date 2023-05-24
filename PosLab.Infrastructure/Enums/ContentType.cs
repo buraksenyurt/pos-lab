@@ -1,4 +1,4 @@
-namespace PosLab.Infrastructure;
+namespace PosLab.Infrastructure.Enums;
 public enum ContentType
 {
     Json,

@@ -1,3 +1,5 @@
+using PosLab.Infrastructure.Enums;
+
 namespace PosLab.Infrastructure.Contracts;
 public interface IResponse
 {

@@ -1,4 +1,5 @@
 using PosLab.Infrastructure.Contracts;
+using PosLab.Infrastructure.Enums;
 
 namespace PosLab.Infrastructure;
 

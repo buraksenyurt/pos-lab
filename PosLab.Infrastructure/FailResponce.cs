@@ -1,3 +1,5 @@
+using PosLab.Infrastructure.Enums;
+
 namespace PosLab.Infrastructure;
 public class FailResponse
     : Response
